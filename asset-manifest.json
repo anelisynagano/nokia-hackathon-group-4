@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/nokia-hackathon-group-4/static/css/main.bce4eba4.chunk.css",
+    "main.js": "/nokia-hackathon-group-4/static/js/main.07fd4266.chunk.js",
+    "main.js.map": "/nokia-hackathon-group-4/static/js/main.07fd4266.chunk.js.map",
+    "runtime-main.js": "/nokia-hackathon-group-4/static/js/runtime-main.8b4a2d3d.js",
+    "runtime-main.js.map": "/nokia-hackathon-group-4/static/js/runtime-main.8b4a2d3d.js.map",
+    "static/css/2.34c0de18.chunk.css": "/nokia-hackathon-group-4/static/css/2.34c0de18.chunk.css",
+    "static/js/2.a2562f12.chunk.js": "/nokia-hackathon-group-4/static/js/2.a2562f12.chunk.js",
+    "static/js/2.a2562f12.chunk.js.map": "/nokia-hackathon-group-4/static/js/2.a2562f12.chunk.js.map",
+    "index.html": "/nokia-hackathon-group-4/index.html",
+    "precache-manifest.84a3c412755bbc488692143391efb4d0.js": "/nokia-hackathon-group-4/precache-manifest.84a3c412755bbc488692143391efb4d0.js",
+    "service-worker.js": "/nokia-hackathon-group-4/service-worker.js",
+    "static/css/2.34c0de18.chunk.css.map": "/nokia-hackathon-group-4/static/css/2.34c0de18.chunk.css.map",
+    "static/css/main.bce4eba4.chunk.css.map": "/nokia-hackathon-group-4/static/css/main.bce4eba4.chunk.css.map",
+    "static/js/2.a2562f12.chunk.js.LICENSE.txt": "/nokia-hackathon-group-4/static/js/2.a2562f12.chunk.js.LICENSE.txt",
+    "static/media/NokiaPureHeadline_Rg.ttf": "/nokia-hackathon-group-4/static/media/NokiaPureHeadline_Rg.d10dc635.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b4a2d3d.js",
+    "static/css/2.34c0de18.chunk.css",
+    "static/js/2.a2562f12.chunk.js",
+    "static/css/main.bce4eba4.chunk.css",
+    "static/js/main.07fd4266.chunk.js"
+  ]
+}
