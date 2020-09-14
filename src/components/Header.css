@@ -1,0 +1,196 @@
+/*--- Header ---*/
+#header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: #E3e3e3;
+    padding: 50px 0;
+    align-items: center;
+    min-height: 500px;
+    margin-bottom: 100px;
+    margin-top: 5px;
+  }
+  
+  .header-h1{
+    font-weight: 700;
+    font-size: 4em;
+    color: #001135;
+  }
+  
+  
+  .header-teaser{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    width: 55%;
+    height: 60%;
+    padding: 20px 20px ;
+    border-right: 7px solid #001135;
+    border-top: 7px solid #001135;
+    border-bottom: 7px solid #001135;
+    border-left: none;
+    border-top-right-radius: 190px;
+    border-bottom-right-radius: 190px;
+   /* -webkit-box-shadow: 0px 2px 0px 0px rgba(18,65,145,1);
+  -moz-box-shadow: 0px 2px 0px 0px rgba(18,65,145,1);
+  box-shadow: 0px 2px 0px 0px rgba(18,65,145,1);*/
+    
+        /*---- slide to the right ----*/
+    animation-name: teaser;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 0.9s;
+    animation-duration: 2.7s;
+  }
+  @keyframes teaser{
+    from {left: 0px;}
+    to {left: 41%;}
+  } /*----end slide effect ----*/
+      
+  
+  .header-phone{
+    display: flex;
+    width: 35%;
+    padding-left: 20px;
+       /*---- slide to the right ----*/
+    animation-name: sliding-logo;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3.6s;
+    overflow: hidden;
+  }
+  
+  @keyframes sliding-logo{
+    from {
+      margin-left: -100%;
+      width: 300%; 
+    }
+     to{
+      margin-left: 4%;
+      width: 100%;
+     }
+  }  /*----end slide effect ----*/
+  
+  .phone-img{
+    align-self: center;
+    /*height: 430px;*/
+  }
+  
+  
+  /*----Responsivness----*/
+  
+  /* ---Responsive Design MEDIUM --- */
+  @media screen and (min-width: 855px) and (max-width:1000px){
+    .header-teaser{
+      width: 50%;
+      height: 58%;
+      border-right: 5px solid #001135;
+      border-top: 5px solid #001135;
+      border-bottom: 5px solid #001135;
+      
+    }
+  
+    @keyframes teaser{
+      from {left: 0px;}
+      to {left: 42%;}
+    }
+    
+    @keyframes sliding-logo{
+      from {
+        margin-left: -100%;
+        width: 100%; 
+      }
+       to{
+        margin-left: 7%;
+        width: 100%;
+       }
+    } 
+    
+    .header-h1{
+      font-weight: 700;
+      font-size: 2.2em;
+    
+    }
+    .phone-img{
+      height: 270px;
+      align-self: flex-end;
+    }
+  }
+/* ---Responsive Design EXTRA SMALL --- */
+@media screen and (min-width: 450px) and (max-width: 854px){
+    #header{
+      justify-content: flex-end;
+      min-height: 20px;
+    }
+    
+    .header-teaser{
+      animation: none;
+      width: 57%;
+      height: 55%;
+      border-right: 5px solid #001135;
+      border-top: 5px solid #001135;
+      border-bottom: 5px solid #001135;
+    }
+    
+    .header-phone{
+      animation: none;
+      overflow: visible;
+      width: 38%;
+    }
+    
+    .header-h1{
+      font-weight: 700;
+      font-size: 1.5em;
+    
+    }
+    .phone-img{
+      height: 170px;
+      align-self: flex-end;
+    }
+  
+  } /* ---End Responsive Design EXTRA SMALL --- */
+  
+  
+  
+      /* ---Responsive Design EXTRA EXTRA SMALL --- */
+  @media screen and (max-width: 449px){
+  #header{
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .header-teaser{
+    animation: none;
+    width: 57%;
+    height: 50%;
+    border-right: 5px solid #001135;
+    border-top: 5px solid #001135;
+    border-bottom: 5px solid #001135;
+  }
+  
+  .header-phone{
+    animation: none;
+    overflow: visible;
+    width: 45%;
+  }
+  
+  .header-h1{
+    font-weight: 700;
+    font-size: 1.25em;
+  
+  }
+  .phone-img{
+    height: 150px;
+  }
+  } /* ---Responsive Design EXTRA EXTRA SMALL --- */
+
+  /* ---Responsive Design EXTRA Large --- */  
+  @media only screen and (min-width: 1400px) {
+      #header{
+          /*max-width: 80%;*/
+          margin: 0 auto;
+      }
+  }

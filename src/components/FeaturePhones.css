@@ -1,0 +1,22 @@
+.phone-list {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 55px;
+    padding-bottom: 50px;
+  }
+
+  @media screen and (min-width: 400px) and (max-width: 854px) {
+    .phone-list {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+        /* not done */
+  @media screen and (min-width: 855px) and (max-width: 1300px) {
+    .phone-list {
+      display: flex;
+      flex-direction: column;
+    }
+  }

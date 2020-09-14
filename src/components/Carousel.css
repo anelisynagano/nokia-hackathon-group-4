@@ -1,0 +1,24 @@
+.carousel {
+  width: 85%;
+  margin: auto;
+  padding: 40px 40px 40px 120px;
+}
+
+.phone {
+  height: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: flex-start;
+  }
+
+  .alice-carousel {
+    width: 100%;
+    width: 350px;
+  }
+  
+}

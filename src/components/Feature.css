@@ -1,0 +1,63 @@
+.fixedphone, .selectedphone {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  flex-direction: row-reverse;
+  margin: auto;
+}
+
+
+.fixedphoneinfo, .selectedphoneinfo {
+  padding: 150px 200px 150px 100px;
+  width: 70%;
+}
+
+.fixedname > h2, .selectedname > h2 {
+  font-size: 50px;
+}
+
+.fixedname > h3, .selectedname > h3 {
+  font-size: 35px;
+  padding: 0px 15px 15px 0px;
+}
+
+.fixedphonename, .selectedphonename {
+  padding: 0px 30px 10px 0px;
+  font-size: 28px;
+}
+
+.fixedphonename2,.selectedphonename2 {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .fixedphone, .selectedphone {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .fixedphoneinfo, .selectedphoneinfo {
+    align-content: flex-start;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .fixedname > h2, .selectedname > h2 {
+    font-size: 40px;
+  }
+  
+  .fixedname > h3, .selectedname > h3 {
+    font-size: 30px;
+    padding: 0px 15px 15px 0px;
+  }
+  
+  .fixedphonename, .selectedphonename {
+    font-size: 22px;
+    padding: 0px 15px 15px 0px;
+  }
+
+  .fixedphonename2,.selectedphonename2 {
+    font-size: 18px;
+  }
+}

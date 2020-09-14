@@ -1,0 +1,25 @@
+.hotspot-banner{
+    flex-direction: row-reverse;
+}
+
+.sec-banner-img{
+
+}
+
+
+.banner-img{
+    align-self: center;
+    width: 100%;
+}
+
+.sec-banner-photo{
+    justify-content: flex-end;
+}
+
+/* ---Responsive Design EXTRA SMALL --- */
+@media screen and (min-width: 450px) and (max-width: 854px){
+    .hotspot-banner{
+       display: flex;
+       flex-direction: column;
+    }
+   }

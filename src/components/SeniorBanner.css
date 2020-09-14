@@ -1,0 +1,125 @@
+.senior-banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+    width: 80%;
+    margin: 100px auto;
+    height: 350px;
+ }
+.banner-photo{
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.banner-img{
+    align-self: center;
+    width: 100%;
+}
+ .banner-teaser{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    height: 100%;
+ }
+
+ .button-banner{
+    width: 45%;
+    background: #124191;
+    box-shadow: none;
+    border-radius: 24px;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0;
+    padding: 12px 25px;
+    color: #ffffff;
+ }
+
+ .button-banner:hover{
+    width: 45%;
+     background: #ffff;
+     color: #124191;
+     font-size: 1.2em;
+     font-weight: 600;
+     
+     box-shadow: 0px 0px 0px 2px #124191 inset;
+     border-radius: 24px;
+ }
+ .banner-h4{
+     font-size: 1.875em;
+     color: #001135;
+     font-weight: 500;
+     width: 85%;
+     margin-bottom: 20px;
+ }
+
+ .content-teaser{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 55%;
+ }
+.content-teaser p{
+    padding: 5px 0;
+    line-height: 1.05em;;
+}
+
+ .banner-paragraph{
+     font-size: 1.1em;
+ }
+
+
+/* ---Responsive Design EXTRA SMALL --- */
+@media screen and (min-width: 450px) and (max-width: 854px){
+ .senior-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+ }
+
+ .banner-h4{
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 10px;
+    align-self: center;
+    width: 100%;
+ }
+
+ .content-teaser p{
+    padding: 2px 0;
+    font-size: 0.7em;
+    line-height: 1em;
+}
+.senior-banner{
+    justify-content: center;
+    height: 380px;
+    margin-bottom: 40px;
+}
+.button-banner{
+    width: 80%;
+    background: #124191;
+    box-shadow: none;
+    border-radius: 24px;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 0;
+    padding: 5px 20px;
+    align-self: center;
+}
+
+.button-banner:hover{
+    width: 85%;
+     background: #ffff;
+     color: #124191;
+     font-size:0.9em;
+     font-weight: 600;
+     box-shadow: 0px 0px 0px 2px #124191 inset;
+     border-radius: 24px;
+ }
+
+
+}
